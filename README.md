@@ -1,2 +1,2 @@
-# vegan-website
- A web project of a vegan website where you make deliveries and also create an account  to save your favourite meals, 
+# vegan food website
+ A website for vegan food lovers to order food and create account to save their favourite meals, 
