@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+
+}
+.header{
+
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),url(main.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+li, button, a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight:500;
+    color: rgb(255, 255, 255);
+
+}
+
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.nav-links{
+    list-style: none;
+}
+
+.nav-links li::after {
+    border: 1px solid green;
+}
+
+li{
+    display: inline-block;
+    padding: 5px 18px;
+    text-decoration: none;
+
+}
+
+li:hover{
+    
+}
+
+.nav-links, li, a:hover{
+color:  rgb(229, 233, 22);
+
+
+}
+
+.logo{
+    width: 135px;
+}
+
+button{
+border-radius:  20px;
+padding: 9px 21px;
+border: none;
+text-decoration: none;
+background-color: rgb(10, 95, 24);
+color: azure;
+margin-top: 21px;
+transition: all ;
+border:1px solid transparent;
+transition: all 0.4s;
+}
+
+button:hover {
+    border: 1px rgb(209, 219, 210) transparent;
+    background-color:rgb(121, 150, 7);
+    color:rgb(238, 241, 239);
+    padding: 9px 21px;
+  
+}
+
+
+.mt{
+    color:rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 30px;;
+    display: inline-block;
+    position: relative;
+    margin-top: 250px;
+    
+    
+}
+
+.cta1{
+    margin: 40px 24px 0 0; 
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 8px 28px;
+    transition: all 0.4s;
+
+}
+
+.cta1:hover{
+    background-color: rgba(222, 228, 226, 0.39);
+}
+
+.mt a:hover{
+    color: white;   
+}
+
+.mt a:hover{
+    
+}
+
+.cta a:hover {
+    background-color: rgba(255, 187, 0, 0.6);
+}
+
+.mt p{
+    font-size: 22px;
+    margin-top: 0px;
+    color: rgba(222, 228, 226, 0.753);
+}
+.buttons{
+    margin-top: 10px;
+}
